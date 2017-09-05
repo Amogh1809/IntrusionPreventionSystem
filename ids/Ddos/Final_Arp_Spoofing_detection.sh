@@ -37,15 +37,18 @@ do
        
         # Determine current default gateway MAC address by using found IP address
         current_mac=$(arp -a $ip | awk '{print $4}')
+
+        echo $current_mac
+        echo $original_mac
        
         # Compare the two MAC addresses
-        if [ $original_mac == $current_mac ]
+        if [ "$original_mac" = "$current_mac" ]
                 then
                         # If both match
                         echo "[+] ARP Poisoning NOT In Progress-------------------OK"
                 else
                         # If both do not match get IP address sending ARP broadcasts
-                        current_ip=$(arp -v | grep $current_mac --max-count=1 | awk '{print $1}')
+                        current_ip=$(arp -v | grep -m2 $current_mac | tail -n1 | awk '{print $1}')
                         echo "$(tput bold)$(tput setaf 1)"
                         echo "[-] Alert! MAC ADDRESS CHANGE DETECTED ARP Poisoning In Progress.......!!!!"
                         echo "    Suspect MAC: $current_mac"

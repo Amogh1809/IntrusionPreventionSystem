@@ -73,7 +73,7 @@ if($fire eq "1")
 {
 print "\n";
 print "Black listing IP A.K.A Blocking Ip Address Started ---------------------------------------- OK \n";
-system('sh /home/amoghbabbar//Desktop/ids/Firewall/Ip_Address_Blocking.sh');
+system('sh /home/utkarsh/Desktop/vips/ids/Firewall/Ip_Address_Blocking.sh');
 print "\n";
 goto START2;
 }
@@ -81,7 +81,7 @@ elsif($fire eq "2")
 {
 print "\n";
 print "Black listing Mac A.K.A Blocking Mac Address Started --------------------------------------- OK \n";
-system('sh /home/amoghbabbar//Desktop/ids/Firewall/MAC_Filtering.sh');
+system('sh /home/utkarsh/Desktop/vips/ids/Firewall/MAC_Filtering.sh');
 print "\n";
 goto START2;
 }
@@ -89,7 +89,7 @@ elsif($fire eq "3")
 { 
 print "\n";
 print "Port Blocking Started ------------------------------------------ OK \n";
-system('sh /home/amoghbabbar//Desktop/ids/Firewall/Port_Filtering.sh');
+system('sh /home/utkarsh/Desktop/vips/ids/Firewall/Port_Filtering.sh');
 print "\n";
 goto START2;
 }
@@ -97,7 +97,7 @@ elsif($fire eq "4")
 {
 print "\n";
 print "Website Blocking Started ---------------------------------------- OK \n";
-system('sh /home/amoghbabbar//Desktop/ids/Firewall/Block_Website.sh');
+system('sh /home/utkarsh/Desktop/vips/ids/Firewall/Block_Website.sh');
 print "\n";
 goto START2;
 }
@@ -105,7 +105,7 @@ elsif($fire eq "5")
 {
 print "\n";
 print "Ads Blocking Started ---------------------------------------- OK \n";
-system('sh /home/amoghbabbar//Desktop/ids/Firewall/Spamming_IP_Block.sh');
+system('sh /home/utkarsh/Desktop/vips/ids/Firewall/Spamming_IP_Block.sh');
 print "\n";
 goto START2;
 }
@@ -113,7 +113,7 @@ elsif($fire eq "6")
 {
 print "\n";
 print "Evil Shell Searching Started ---------------------------------------- OK \n";
-system('perl /home/amoghbabbar//Desktop/ids/Firewall/evil_shell_finder.pl');
+system('perl /home/utkarsh/Desktop/vips/ids/Firewall/evil_shell_finder.pl');
 print "\n";
 goto START2;
 }
@@ -121,7 +121,7 @@ elsif($fire eq "7")
 {
 print "\n";
 print "Hunting Trojan Started ---------------------------------------- OK \n";
-system('perl /home/amoghbabbar//Desktop/ids/Firewall/Trojan_Scan.pl');
+system('perl /home/utkarsh/Desktop/vips/ids/Firewall/Trojan_Scan.pl');
 print "\n";
 goto START2;
 }
@@ -155,7 +155,7 @@ if($hone eq "1")
 {
 print "\n";
 print "Program For Fake Access Point Started  ---------------------------------------- OK \n";
-system('sh /home/amoghbabbar//Desktop/ids/Honeypot/fake_access_point.sh');
+system('sh /home/utkarsh/Desktop/vips/ids/Honeypot/fake_access_point.sh');
 print "\n";
 goto START3;
 }
@@ -163,7 +163,7 @@ elsif($hone eq "2")
 {
 print "\n";
 print "Program For Killing Fake Access Point Started ------------------------ OK \n";
-system('sh /home/amoghbabbar//Desktop/ids/Honeypot/kill_fake_access_point.sh');
+system('sh /home/utkarsh/Desktop/vips/ids/Honeypot/kill_fake_access_point.sh');
 print "\n";
 goto START3;
 }
@@ -171,7 +171,7 @@ elsif($hone eq "3")
 {
 print "\n";
 print "Port Scannin Attack Detector Started------------------------ OK \n";
-system('sh /home/amoghbabbar//Desktop/ids/Honeypot/main.sh');
+system('sh /home/utkarsh/Desktop/vips/ids/Honeypot/main.sh');
 print "\n";
 goto START3;
 }
@@ -211,7 +211,7 @@ if($dos eq "1")
 {
 print "\n";
 print "ARP Poisoning Detection Is Started ------------------------ OK \n";
-system('sh /home/amoghbabbar//Desktop/ids/Ddos/Final_Arp_Spoofing_detection.sh');
+system('sh /home/utkarsh/Desktop/vips/ids/Ddos/Final_Arp_Spoofing_detection.sh');
 print "\n";
 goto START4;
 }
@@ -219,7 +219,7 @@ elsif($dos eq "2")
 {
 print "\n";
 print "HTTP Ddos Attack Detection Is Started ------------------------ OK \n";
-system('sh /home/amoghbabbar//Desktop/ids/Ddos/http.sh');
+system('sh /home/utkarsh/Desktop/vips/ids/Ddos/http.sh');
 print "\n";
 goto START4;
 }
@@ -227,7 +227,7 @@ elsif($dos eq "3")
 { 
 print "\n";
 print "UDP Ddos Attack Detection Is Started ------------------------ OK \n";
-system('sh /home/amoghbabbar//Desktop/ids/Ddos/udp.sh');
+system('sh /home/utkarsh/Desktop/vips/ids/Ddos/udp.sh');
 print "\n";
 goto START4;
 }
@@ -235,7 +235,7 @@ elsif($dos eq "4")
 {
 print "\n";
 print "TCP / IP Ddos Attack Detection Is Started ------------------------ OK \n";
-system('sh /home/amoghbabbar//Desktop/ids/Ddos/Tcp-Ip.sh');
+system('sh /home/utkarsh/Desktop/vips/ids/Ddos/Tcp-Ip.sh');
 print "\n";
 goto START4;
 }
@@ -243,7 +243,7 @@ elsif($dos eq "5")
 {
 print "\n";
 print "SYN Ddos Attack Detection Is Started ------------------------ OK \n";
-system('sh /home/amoghbabbar//Desktop/ids/Ddos/SYN.sh');
+system('sh /home/utkarsh/Desktop/vips/ids/Ddos/SYN.sh');
 print "\n";
 goto START4;
 }
@@ -251,7 +251,7 @@ elsif($dos eq "6")
 {
 print "\n";
 print "Establish Connection Attack Detection Is Started ------------------------ OK \n";
-system('sh /home/amoghbabbar//Desktop/ids/Ddos/Establish-connection-attack.sh');
+system('sh /home/utkarsh/Desktop/vips/ids/Ddos/Establish-connection-attack.sh');
 print "\n";
 goto START4;
 }
@@ -259,7 +259,7 @@ elsif($dos eq "7")
 {
 print "\n";
 print "Automatic Dos-Ddos Blocking Started ------------------------ OK \n";
-system('perl /home/amoghbabbar//Desktop/ids/Ddos/blockdos.pl');
+system('perl /home/utkarsh/Desktop/vips/ids/Ddos/blockdos.pl');
 print "\n";
 goto START4;
 }
@@ -267,7 +267,7 @@ elsif($dos eq "8")
 {
 print "\n";
 print "Flooding or Dos Attack On Specific Port Started ------------------------ OK \n";
-system('sh /home/amoghbabbar//Desktop/ids/Ddos/main.sh');
+system('sh /home/utkarsh/Desktop/vips/ids/Ddos/main.sh');
 print "\n";
 goto START4;
 }
@@ -275,7 +275,7 @@ elsif($dos eq "9")
 {
 print "\n";
 print "Ping Of Death Attack Detection Started ------------------------ OK \n";
-system('sh /home/amoghbabbar//Desktop/ids/Ddos/PingOfDeathDetector.sh');
+system('sh /home/utkarsh/Desktop/vips/ids/Ddos/PingOfDeathDetector.sh');
 print "\n";
 goto START4;
 }
@@ -312,7 +312,7 @@ if($log eq "1")
 {
 print "\n";
 print "Check Modification Time/date For Files Started ------------------------ OK \n";
-system('sh /home/amoghbabbar//Desktop/ids/Logs/a.sh');
+system('sh /home/utkarsh/Desktop/vips/ids/Logs/a.sh');
 print "\n";
 goto START5;
 }
@@ -320,7 +320,7 @@ if($log eq "2")
 {
 print "\n";
 print "Check Permission Modification Started ------------------------ OK \n";
-system('sh /home/amoghbabbar//Desktop/ids/Logs/b.sh');
+system('sh /home/utkarsh/Desktop/vips/ids/Logs/b.sh');
 print "\n";
 goto START5;
 }
@@ -328,7 +328,7 @@ if($log eq "3")
 {
 print "\n";
 print "Check Unexplained Changes In The File's Size Started ------------------------ OK \n";
-system('sh /home/amoghbabbar//Desktop/ids/Logs/c.sh');
+system('sh /home/utkarsh/Desktop/vips/ids/Logs/c.sh');
 print "\n";
 goto START5;
 }
@@ -336,7 +336,7 @@ if($log eq "4")
 {
 print "\n";
 print "Modification To System Boot Started ------------------------ OK \n";
-system('sh /home/amoghbabbar//Desktop/ids/Logs/System_Boot_Logs.sh');
+system('sh /home/utkarsh/Desktop/vips/ids/Logs/System_Boot_Logs.sh');
 print "\n";
 goto START5;
 }
@@ -344,7 +344,7 @@ if($log eq "5")
 {
 print "\n";
 print "Program For Cleaning Logs Started ------------------------ OK \n";
-system('perl /home/amoghbabbar//Desktop/ids/Logs/LogCleaner.pl');
+system('perl /home/utkarsh/Desktop/vips/ids/Logs/LogCleaner.pl');
 print "\n";
 goto START5;
 }
@@ -352,7 +352,7 @@ if($log eq "6")
 {
 print "\n";
 print "Check & Give Threshold Password To Accounts Started ------------------------ OK \n";
-system('sh /home/amoghbabbar//Desktop/ids/Logs/Logins_Logs_Attempt.sh');
+system('sh /home/utkarsh/Desktop/vips/ids/Logs/Logins_Logs_Attempt.sh');
 print "\n";
 goto START5;
 }
