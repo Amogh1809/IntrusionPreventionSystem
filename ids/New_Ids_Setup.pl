@@ -198,11 +198,9 @@ print color("yellow"),"2 = Check For HTTP DDos \n", color("reset");
 print color("yellow"),"3 = Check For UDP Ddos \n", color("reset");
 print color("yellow"),"4 = Check For TCP / IP Ddos \n", color("reset");
 print color("yellow"),"5 = Check For SYN Ddos \n", color("reset");
-print color("yellow"),"6 = Check For Establish Connection Attack \n", color("reset");
-print color("yellow"),"7 = Block Dos-Ddos Automatic \n", color("reset");
-print color("yellow"),"8 = Check Flooding or Dos Attack On Specific Port \n", color("reset");
-print color("yellow"),"9 = Check Ping Of Death Attack \n", color("reset");
-print color("blue"),"10 = Back To Main Menu \n", color("reset");
+print color("yellow"),"6 = Block Dos-Ddos Automatic \n", color("reset");
+print color("yellow"),"7 = Check Ping Of Death Attack \n", color("reset");
+print color("blue"),"8 = Back To Main Menu \n", color("reset");
 print "\n";
 print "--->";
 $dos=<STDIN>;
@@ -250,28 +248,12 @@ goto START4;
 elsif($dos eq "6")
 {
 print "\n";
-print "Establish Connection Attack Detection Is Started ------------------------ OK \n";
-system('sh /home/amoghbabbar/Desktop/vips/ids/Ddos/Establish-connection-attack.sh');
-print "\n";
-goto START4;
-}
-elsif($dos eq "7")
-{
-print "\n";
 print "Automatic Dos-Ddos Blocking Started ------------------------ OK \n";
 system('perl /home/amoghbabbar/Desktop/vips/ids/Ddos/blockdos.pl');
 print "\n";
 goto START4;
 }
-elsif($dos eq "8")
-{
-print "\n";
-print "Flooding or Dos Attack On Specific Port Started ------------------------ OK \n";
-system('sh /home/amoghbabbar/Desktop/vips/ids/Ddos/main.sh');
-print "\n";
-goto START4;
-}
-elsif($dos eq "9")
+elsif($dos eq "7")
 {
 print "\n";
 print "Ping Of Death Attack Detection Started ------------------------ OK \n";
@@ -279,7 +261,7 @@ system('sh /home/amoghbabbar/Desktop/vips/ids/Ddos/PingOfDeathDetector.sh');
 print "\n";
 goto START4;
 }
-elsif($dos eq "10")
+elsif($dos eq "8")
 {
 system('clear');
 goto START;
