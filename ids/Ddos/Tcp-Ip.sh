@@ -6,7 +6,7 @@ echo "$(tput setaf 7)"
 echo "Checking For TCP/IP Denial of Service Attack:"
 while :
 do
-timeout 8 tcpdump -i wlo1 -s 65535 > abcd.txt 2> /dev/null
+timeout 8 tcpdump -i ens33 -s 65535 > abcd.txt 2> /dev/null
 qe=$(egrep -m 1 "Flags \[S\]" abcd.txt |  awk '{split($3,a,"."); print a[1]"." a[2]"." a[3]"." a[4]}' )
 blo=$(egrep "Flags \[R.\]" abcd.txt | wc -l)
 if [ $blo -gt 0 ]

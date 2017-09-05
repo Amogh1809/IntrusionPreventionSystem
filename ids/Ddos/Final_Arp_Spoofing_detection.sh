@@ -53,6 +53,7 @@ do
                         echo "[-] Alert! MAC ADDRESS CHANGE DETECTED ARP Poisoning In Progress.......!!!!"
                         echo "    Suspect MAC: $current_mac"
                         echo "    Suspect IP: $current_ip $(tput sgr0)"
+                        echo "    Kindly block this IP and MAC from your Router Settings. "
         fi
         sleep 5s
 done
