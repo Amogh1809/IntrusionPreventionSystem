@@ -1,6 +1,626 @@
-  0.105161 172.22.132.81 -> 172.22.134.105 ICMP 74 Echo (ping) request  id=0x0001, seq=495/61185, ttl=128
-  1.026780 172.22.132.81 -> 172.22.134.105 ICMP 74 Echo (ping) request  id=0x0001, seq=496/61441, ttl=128
-  2.199964 172.22.132.81 -> 172.22.134.105 ICMP 74 Echo (ping) request  id=0x0001, seq=497/61697, ttl=128
-  3.100876 172.22.132.81 -> 172.22.134.105 ICMP 74 Echo (ping) request  id=0x0001, seq=498/61953, ttl=128
-  4.098319 172.22.132.81 -> 172.22.134.105 ICMP 74 Echo (ping) request  id=0x0001, seq=499/62209, ttl=128
-  5.126760 172.22.132.81 -> 172.22.134.105 ICMP 74 Echo (ping) request  id=0x0001, seq=500/62465, ttl=128
+    1 0.000000000 192.168.0.173 → 192.168.0.159 ICMP 98 Echo (ping) request  id=0x08cc, seq=30/7680, ttl=1
+    5 0.923338610 192.168.0.173 → 192.168.0.159 ICMP 98 Echo (ping) request  id=0x08cc, seq=31/7936, ttl=1
+   11 2.616536090 192.168.0.173 → 192.168.0.159 ICMP 98 Echo (ping) request  id=0x08cc, seq=32/8192, ttl=1
+   17 2.907518167 192.168.0.173 → 192.168.0.159 ICMP 98 Echo (ping) request  id=0x08cc, seq=33/8448, ttl=1
+   24 3.994701878 192.168.0.173 → 192.168.0.159 ICMP 98 Echo (ping) request  id=0x08cc, seq=34/8704, ttl=1
+   30 4.916155832 192.168.0.173 → 192.168.0.159 ICMP 98 Echo (ping) request  id=0x08cc, seq=35/8960, ttl=1
+   34 5.946364159 192.168.0.173 → 192.168.0.159 ICMP 98 Echo (ping) request  id=0x08cc, seq=36/9216, ttl=1
+   37 6.967032478 192.168.0.173 → 192.168.0.159 ICMP 98 Echo (ping) request  id=0x08cc, seq=37/9472, ttl=1
+   39 7.988282777 192.168.0.173 → 192.168.0.159 ICMP 98 Echo (ping) request  id=0x08cc, seq=38/9728, ttl=1
+    7 0.644621937 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a41, seq=1/256, ttl=64
+    8 0.644638969 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a41, seq=2/512, ttl=64
+    9 0.644640077 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a41, seq=3/768, ttl=64
+   10 0.644641213 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   11 0.644642414 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   12 0.644643131 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   13 0.645458392 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a41, seq=4/1024, ttl=64
+   14 0.645475569 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a41, seq=5/1280, ttl=64
+   15 0.645476977 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   16 0.645477973 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   17 0.646343326 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a41, seq=6/1536, ttl=64
+   18 0.646360835 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   19 0.647706857 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a41, seq=7/1792, ttl=64
+   20 0.647723960 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   21 0.648741854 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a41, seq=8/2048, ttl=64
+   22 0.648758699 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   23 0.649630567 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a41, seq=9/2304, ttl=64
+   24 0.649647292 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a41, seq=10/2560, ttl=64
+   25 0.649648530 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   26 0.649649673 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   27 0.650926530 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a41, seq=11/2816, ttl=64
+   28 0.650943030 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a41, seq=12/3072, ttl=64
+   29 0.650944622 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   30 0.650945668 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   37 1.645961107 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a42, seq=1/256, ttl=64
+   38 1.645980011 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a42, seq=2/512, ttl=64
+   39 1.645981335 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a42, seq=3/768, ttl=64
+   40 1.645982486 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   41 1.645983422 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   42 1.645984145 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   43 1.658793546 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a42, seq=4/1024, ttl=64
+   44 1.658811117 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   45 1.659598499 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a42, seq=5/1280, ttl=64
+   46 1.659611996 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a42, seq=6/1536, ttl=64
+   47 1.659613440 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a42, seq=7/1792, ttl=64
+   48 1.659614485 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a42, seq=8/2048, ttl=64
+   49 1.659615592 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a42, seq=9/2304, ttl=64
+   50 1.659616658 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a42, seq=10/2560, ttl=64
+   51 1.659617702 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a42, seq=11/2816, ttl=64
+   52 1.659618674 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a42, seq=12/3072, ttl=64
+   53 1.659620175 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   54 1.659621730 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   55 1.659622446 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   56 1.659623102 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   57 1.659623851 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   58 1.659624832 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   59 1.659625784 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   60 1.659626439 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   67 2.647280424 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a43, seq=1/256, ttl=64
+   68 2.647299363 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a43, seq=2/512, ttl=64
+   69 2.647300599 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a43, seq=3/768, ttl=64
+   70 2.647301641 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   71 2.647302428 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   72 2.647303316 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   73 2.648376332 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a43, seq=4/1024, ttl=64
+   74 2.648394097 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   75 2.649559797 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a43, seq=5/1280, ttl=64
+   76 2.649574314 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   77 2.650518636 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a43, seq=6/1536, ttl=64
+   78 2.650537829 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   79 2.651501679 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a43, seq=7/1792, ttl=64
+   80 2.651520359 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   81 2.652965523 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a43, seq=8/2048, ttl=64
+   82 2.652984168 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   83 2.654048518 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a43, seq=9/2304, ttl=64
+   84 2.654066244 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a43, seq=10/2560, ttl=64
+   85 2.654067273 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a43, seq=11/2816, ttl=64
+   86 2.654067896 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   87 2.654068312 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   88 2.654068759 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   89 2.655132268 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a43, seq=12/3072, ttl=64
+   90 2.655146242 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   99 3.656587786 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a44, seq=1/256, ttl=64
+  100 3.656594847 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a44, seq=2/512, ttl=64
+  101 3.656596053 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a44, seq=3/768, ttl=64
+  102 3.656597303 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a44, seq=4/1024, ttl=64
+  103 3.656598315 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a44, seq=5/1280, ttl=64
+  104 3.656599301 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a44, seq=6/1536, ttl=64
+  105 3.656600277 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a44, seq=7/1792, ttl=64
+  106 3.656601211 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a44, seq=8/2048, ttl=64
+  107 3.656602195 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a44, seq=9/2304, ttl=64
+  108 3.656603153 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a44, seq=10/2560, ttl=64
+  109 3.656604205 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  110 3.656605588 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  111 3.656606592 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  112 3.656607260 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  113 3.656607919 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  114 3.656611172 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  115 3.656611998 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  116 3.656612781 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  117 3.656613439 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  118 3.656614305 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  120 3.961030178 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a44, seq=12/3072, ttl=64
+  121 3.961068701 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  126 4.789859145 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a45, seq=1/256, ttl=64
+  127 4.789871091 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a45, seq=2/512, ttl=64
+  128 4.789871767 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a45, seq=3/768, ttl=64
+  129 4.789872415 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a45, seq=4/1024, ttl=64
+  130 4.789872911 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a45, seq=5/1280, ttl=64
+  131 4.789873514 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a45, seq=6/1536, ttl=64
+  132 4.789873971 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a45, seq=7/1792, ttl=64
+  133 4.789874528 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a45, seq=8/2048, ttl=64
+  134 4.789874955 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a45, seq=9/2304, ttl=64
+  135 4.789875390 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a45, seq=10/2560, ttl=64
+  136 4.789875815 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a45, seq=11/2816, ttl=64
+  137 4.789878443 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a45, seq=12/3072, ttl=64
+  138 4.789878977 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  139 4.789879512 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  140 4.789879811 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  141 4.789880372 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  142 4.789882260 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  143 4.789882639 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  144 4.789882970 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  145 4.789883360 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  146 4.789883648 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  147 4.789883972 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  148 4.789884274 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  149 4.789884598 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  159 5.653380774 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a46, seq=1/256, ttl=64
+  160 5.653399851 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a46, seq=2/512, ttl=64
+  161 5.653401710 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  162 5.653403098 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  163 5.653404057 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a46, seq=3/768, ttl=64
+  164 5.653405550 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  165 5.654621388 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a46, seq=4/1024, ttl=64
+  166 5.654633402 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a46, seq=5/1280, ttl=64
+  167 5.654634530 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  168 5.654635225 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  169 5.658341055 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a46, seq=6/1536, ttl=64
+  170 5.658356237 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a46, seq=7/1792, ttl=64
+  171 5.658357376 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  172 5.658358140 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  173 5.659710143 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a46, seq=8/2048, ttl=64
+  174 5.659724925 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a46, seq=9/2304, ttl=64
+  175 5.659725946 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  176 5.659726669 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  177 5.660756480 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a46, seq=10/2560, ttl=64
+  178 5.660774621 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a46, seq=11/2816, ttl=64
+  179 5.660775815 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  180 5.660776630 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  181 5.661589168 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a46, seq=12/3072, ttl=64
+  182 5.661605231 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  188 6.654791979 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a47, seq=1/256, ttl=64
+  189 6.654802725 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a47, seq=2/512, ttl=64
+  190 6.654803627 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a47, seq=3/768, ttl=64
+  191 6.654804251 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a47, seq=4/1024, ttl=64
+  192 6.654804732 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a47, seq=5/1280, ttl=64
+  193 6.654805199 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a47, seq=6/1536, ttl=64
+  194 6.654805726 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  195 6.654806230 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  196 6.654806557 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  197 6.654806946 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  198 6.654807260 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  199 6.654807589 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  200 6.654807980 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a47, seq=7/1792, ttl=64
+    3 0.139083312 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a77, seq=1/256, ttl=64
+    4 0.139100840 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a77, seq=2/512, ttl=64
+    5 0.139102124 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+    6 0.139103125 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+    7 0.140212692 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a77, seq=3/768, ttl=64
+    8 0.140230164 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+    9 0.142197104 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a77, seq=4/1024, ttl=64
+   10 0.142215007 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   11 0.142976824 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a77, seq=5/1280, ttl=64
+   12 0.142993780 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   13 0.147448834 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a77, seq=6/1536, ttl=64
+   14 0.147466095 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   15 0.147467948 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a77, seq=7/1792, ttl=64
+   16 0.147469207 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a77, seq=8/2048, ttl=64
+   17 0.147470255 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a77, seq=9/2304, ttl=64
+   18 0.147471387 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a77, seq=10/2560, ttl=64
+   19 0.147472542 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a77, seq=11/2816, ttl=64
+   20 0.147473563 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a77, seq=12/3072, ttl=64
+   21 0.147474770 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   22 0.147475467 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   23 0.147476214 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   24 0.147477102 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   25 0.147477935 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   26 0.147478684 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   31 1.233026591 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a78, seq=1/256, ttl=64
+   32 1.233042225 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a78, seq=2/512, ttl=64
+   33 1.233044098 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a78, seq=3/768, ttl=64
+   34 1.233045029 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a78, seq=4/1024, ttl=64
+   35 1.233046328 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a78, seq=5/1280, ttl=64
+   36 1.233047146 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a78, seq=6/1536, ttl=64
+   37 1.233047964 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a78, seq=7/1792, ttl=64
+   38 1.233048797 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a78, seq=8/2048, ttl=64
+   39 1.233049625 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a78, seq=9/2304, ttl=64
+   40 1.233050446 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a78, seq=10/2560, ttl=64
+   41 1.233051261 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a78, seq=11/2816, ttl=64
+   42 1.233052271 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   43 1.233053024 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   44 1.233053620 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   45 1.233054175 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   46 1.233054783 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   47 1.233057222 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   48 1.233058195 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   49 1.233058775 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   50 1.233059496 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   51 1.233060074 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   52 1.233060729 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   53 1.233061407 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a78, seq=12/3072, ttl=64
+   54 1.233062373 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   57 2.357750980 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a79, seq=1/256, ttl=64
+   58 2.357766808 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a79, seq=2/512, ttl=64
+   59 2.357768206 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a79, seq=3/768, ttl=64
+   60 2.357769094 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a79, seq=4/1024, ttl=64
+   61 2.357769907 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a79, seq=5/1280, ttl=64
+   62 2.357770703 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a79, seq=6/1536, ttl=64
+   63 2.357771528 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a79, seq=7/1792, ttl=64
+   64 2.357772324 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a79, seq=8/2048, ttl=64
+   65 2.357773144 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a79, seq=9/2304, ttl=64
+   66 2.357774035 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a79, seq=10/2560, ttl=64
+   67 2.357774925 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a79, seq=11/2816, ttl=64
+   68 2.357776088 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a79, seq=12/3072, ttl=64
+   69 2.357777149 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   70 2.357777822 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   71 2.357778452 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   72 2.357779008 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   73 2.357782022 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   74 2.357782868 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   75 2.357783501 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   76 2.357784041 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   77 2.357784572 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   78 2.357785136 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   79 2.357785682 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   80 2.357786355 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   82 3.176481667 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a7a, seq=1/256, ttl=64
+   83 3.176498631 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a7a, seq=2/512, ttl=64
+   84 3.176500164 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a7a, seq=3/768, ttl=64
+   85 3.176501313 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a7a, seq=4/1024, ttl=64
+   86 3.176502305 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a7a, seq=5/1280, ttl=64
+   87 3.176503666 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a7a, seq=6/1536, ttl=64
+   88 3.176504709 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a7a, seq=7/1792, ttl=64
+   89 3.176505799 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a7a, seq=8/2048, ttl=64
+   90 3.176506997 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a7a, seq=9/2304, ttl=64
+   91 3.176507985 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a7a, seq=10/2560, ttl=64
+   92 3.176508986 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a7a, seq=11/2816, ttl=64
+   93 3.176510122 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   94 3.176511011 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   95 3.176511815 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   96 3.176512483 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   97 3.176513152 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   98 3.176516251 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   99 3.176517037 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  100 3.176517712 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  101 3.176518395 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  102 3.176519164 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  103 3.176519864 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  104 3.176520585 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a7a, seq=12/3072, ttl=64
+  105 3.176521812 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  114 4.145131956 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a7b, seq=1/256, ttl=64
+  115 4.145148650 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a7b, seq=2/512, ttl=64
+  116 4.145150024 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a7b, seq=3/768, ttl=64
+  117 4.145151203 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  118 4.145152432 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  119 4.145153090 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  120 4.151261814 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a7b, seq=4/1024, ttl=64
+  121 4.151277932 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a7b, seq=5/1280, ttl=64
+  122 4.151279268 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a7b, seq=6/1536, ttl=64
+  123 4.151280231 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a7b, seq=7/1792, ttl=64
+  124 4.151281429 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a7b, seq=8/2048, ttl=64
+  125 4.151282882 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a7b, seq=9/2304, ttl=64
+  126 4.151284043 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a7b, seq=10/2560, ttl=64
+  127 4.151285373 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  128 4.151286258 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  129 4.151286882 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  130 4.151287633 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  131 4.151288431 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  132 4.151289049 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  133 4.151289860 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  134 4.152232581 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a7b, seq=11/2816, ttl=64
+  135 4.152250121 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  136 4.153002924 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a7b, seq=12/3072, ttl=64
+  137 4.153020298 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  149 5.145981901 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a7c, seq=1/256, ttl=64
+  150 5.145998788 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a7c, seq=2/512, ttl=64
+  151 5.146000247 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a7c, seq=3/768, ttl=64
+  152 5.146001519 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  153 5.146002365 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  154 5.146003295 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  155 5.147160872 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a7c, seq=4/1024, ttl=64
+  156 5.147178305 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  157 5.148711572 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a7c, seq=5/1280, ttl=64
+  158 5.148728911 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  159 5.151037023 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a7c, seq=6/1536, ttl=64
+  160 5.151053571 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a7c, seq=7/1792, ttl=64
+  161 5.151054886 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a7c, seq=8/2048, ttl=64
+  162 5.151055893 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a7c, seq=9/2304, ttl=64
+  163 5.151057033 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a7c, seq=10/2560, ttl=64
+  164 5.151058128 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  165 5.151059311 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  166 5.151060201 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  167 5.151060887 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  168 5.151061559 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  169 5.151893898 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a7c, seq=11/2816, ttl=64
+  170 5.151910084 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a7c, seq=12/3072, ttl=64
+  171 5.151911147 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  172 5.151912035 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  175 6.308469369 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a7d, seq=1/256, ttl=64
+  176 6.308486928 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a7d, seq=2/512, ttl=64
+  177 6.308488298 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a7d, seq=3/768, ttl=64
+  178 6.308489493 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a7d, seq=4/1024, ttl=64
+  179 6.308490710 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a7d, seq=5/1280, ttl=64
+  180 6.308492045 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a7d, seq=6/1536, ttl=64
+  181 6.308493077 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a7d, seq=7/1792, ttl=64
+  182 6.308494272 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a7d, seq=8/2048, ttl=64
+  183 6.308495238 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a7d, seq=9/2304, ttl=64
+  184 6.308496202 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a7d, seq=10/2560, ttl=64
+  185 6.308497169 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a7d, seq=11/2816, ttl=64
+  186 6.308498246 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  187 6.308499302 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  188 6.308499933 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  189 6.308500568 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  190 6.308501349 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  191 6.308504142 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  192 6.308504850 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  193 6.308505682 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  194 6.308506337 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  195 6.308507009 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  196 6.308507701 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  197 6.308508382 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a7d, seq=12/3072, ttl=64
+  198 6.308510023 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  200 7.364011987 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0a7e, seq=1/256, ttl=64
+    4 0.257460759 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0ac4, seq=1/256, ttl=64
+    5 0.257477396 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0ac4, seq=2/512, ttl=64
+    6 0.257478640 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+    7 0.257479506 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+    8 0.258503794 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0ac4, seq=3/768, ttl=64
+    9 0.258520087 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0ac4, seq=4/1024, ttl=64
+   10 0.258521463 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   11 0.258522778 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   12 0.259426780 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0ac4, seq=5/1280, ttl=64
+   13 0.259443733 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   14 0.260631303 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0ac4, seq=6/1536, ttl=64
+   15 0.260647770 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   16 0.263170486 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0ac4, seq=7/1792, ttl=64
+   17 0.263187808 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   18 0.263949081 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0ac4, seq=8/2048, ttl=64
+   19 0.263965541 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   20 0.265185423 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0ac4, seq=9/2304, ttl=64
+   21 0.265202437 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   22 0.267086311 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0ac4, seq=10/2560, ttl=64
+   23 0.267103657 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   24 0.268022112 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0ac4, seq=11/2816, ttl=64
+   25 0.268039092 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0ac4, seq=12/3072, ttl=64
+   26 0.268040373 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   27 0.268041479 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   36 1.258937119 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0ac5, seq=1/256, ttl=64
+   37 1.258951678 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   38 1.261841198 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0ac5, seq=2/512, ttl=64
+   39 1.261857206 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0ac5, seq=3/768, ttl=64
+   40 1.261858677 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0ac5, seq=4/1024, ttl=64
+   41 1.261859672 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0ac5, seq=5/1280, ttl=64
+   42 1.261860523 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0ac5, seq=6/1536, ttl=64
+   43 1.261861429 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   44 1.261862102 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   45 1.261862862 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   46 1.261863420 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   47 1.261863953 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   48 1.263389104 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0ac5, seq=7/1792, ttl=64
+   49 1.263404496 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   50 1.265663046 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0ac5, seq=8/2048, ttl=64
+   51 1.265677715 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   52 1.266611765 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0ac5, seq=9/2304, ttl=64
+   53 1.266627519 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0ac5, seq=10/2560, ttl=64
+   54 1.266628544 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   55 1.266629332 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   56 1.267582994 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0ac5, seq=11/2816, ttl=64
+   57 1.267598934 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   58 1.271356261 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0ac5, seq=12/3072, ttl=64
+   59 1.271370156 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  112 2.266150489 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0ac6, seq=1/256, ttl=64
+  113 2.266163527 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0ac6, seq=2/512, ttl=64
+  114 2.266164881 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0ac6, seq=3/768, ttl=64
+  115 2.266166192 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0ac6, seq=4/1024, ttl=64
+  116 2.266166999 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0ac6, seq=5/1280, ttl=64
+  117 2.266167785 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0ac6, seq=6/1536, ttl=64
+  118 2.266168546 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0ac6, seq=7/1792, ttl=64
+  119 2.266169331 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0ac6, seq=8/2048, ttl=64
+  120 2.266170129 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0ac6, seq=9/2304, ttl=64
+  121 2.266170899 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0ac6, seq=10/2560, ttl=64
+  122 2.266172138 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0ac6, seq=11/2816, ttl=64
+  123 2.266172921 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0ac6, seq=12/3072, ttl=64
+  124 2.266173813 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  125 2.266174519 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  126 2.266175234 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  127 2.266175760 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  128 2.266177989 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  129 2.266178800 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  130 2.266179490 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  131 2.266180025 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  132 2.266180561 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  133 2.266181094 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  134 2.266181672 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  135 2.266182529 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  142 3.261733684 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0ac7, seq=1/256, ttl=64
+  143 3.261750583 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0ac7, seq=2/512, ttl=64
+  144 3.261751943 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  145 3.261753079 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  146 3.262567940 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0ac7, seq=3/768, ttl=64
+  147 3.262585134 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  148 3.263800937 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0ac7, seq=4/1024, ttl=64
+  149 3.263818378 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  150 3.265353569 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0ac7, seq=5/1280, ttl=64
+  151 3.265370715 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  152 3.268303120 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0ac7, seq=6/1536, ttl=64
+  153 3.268319981 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0ac7, seq=7/1792, ttl=64
+  154 3.268321448 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  155 3.268322363 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  156 3.269113860 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0ac7, seq=8/2048, ttl=64
+  157 3.269130319 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0ac7, seq=9/2304, ttl=64
+  158 3.269131843 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  159 3.269133204 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  160 3.270122812 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0ac7, seq=10/2560, ttl=64
+  161 3.270139918 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  162 3.270954052 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0ac7, seq=11/2816, ttl=64
+  163 3.270971620 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  164 3.272293278 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0ac7, seq=12/3072, ttl=64
+  165 3.272309349 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  171 4.354276020 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0ac8, seq=1/256, ttl=64
+  172 4.354293234 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0ac8, seq=2/512, ttl=64
+  173 4.354295088 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0ac8, seq=3/768, ttl=64
+  174 4.354296221 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0ac8, seq=4/1024, ttl=64
+  175 4.354297213 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0ac8, seq=5/1280, ttl=64
+  176 4.354298256 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0ac8, seq=6/1536, ttl=64
+  177 4.354299229 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0ac8, seq=7/1792, ttl=64
+  178 4.354300504 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0ac8, seq=8/2048, ttl=64
+  179 4.354301604 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  180 4.354303016 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  181 4.354303958 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  182 4.354304606 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  183 4.354305310 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  184 4.354305984 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  185 4.354306650 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  186 4.354307308 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  187 4.354310144 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0ac8, seq=9/2304, ttl=64
+  188 4.354311236 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0ac8, seq=10/2560, ttl=64
+  189 4.354312511 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0ac8, seq=11/2816, ttl=64
+  190 4.354313500 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0ac8, seq=12/3072, ttl=64
+  191 4.354314532 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  192 4.354315255 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  193 4.354315962 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  194 4.354316779 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+    4 0.819887607 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0be8, seq=1/256, ttl=64
+    5 0.819903943 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0be8, seq=2/512, ttl=64
+    6 0.819905556 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0be8, seq=3/768, ttl=64
+    7 0.819906954 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0be8, seq=4/1024, ttl=64
+    8 0.819907957 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0be8, seq=5/1280, ttl=64
+    9 0.819908986 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0be8, seq=6/1536, ttl=64
+   10 0.819910375 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   11 0.819911379 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   12 0.819912000 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   13 0.819912731 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   14 0.819913395 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   15 0.819914060 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   16 0.819914769 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0be8, seq=7/1792, ttl=64
+   17 0.819915782 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0be8, seq=8/2048, ttl=64
+   18 0.819917180 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0be8, seq=9/2304, ttl=64
+   19 0.819918198 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   20 0.819922854 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   21 0.819924067 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   22 0.819924735 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0be8, seq=10/2560, ttl=64
+   23 0.819925871 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0be8, seq=11/2816, ttl=64
+   24 0.819927177 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0be8, seq=12/3072, ttl=64
+   25 0.819928387 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   26 0.819929174 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   27 0.819929871 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   32 1.763135380 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0be9, seq=1/256, ttl=64
+   33 1.763149979 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0be9, seq=2/512, ttl=64
+   34 1.763151165 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0be9, seq=3/768, ttl=64
+   35 1.763152106 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   36 1.763153499 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   37 1.763154082 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   38 1.763154604 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0be9, seq=4/1024, ttl=64
+   39 1.763155522 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0be9, seq=5/1280, ttl=64
+   40 1.763156939 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   41 1.763157496 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   42 1.763158050 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0be9, seq=6/1536, ttl=64
+   43 1.763158820 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   44 1.763309499 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0be9, seq=7/1792, ttl=64
+   45 1.763318833 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   46 1.763476396 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0be9, seq=8/2048, ttl=64
+   47 1.763481915 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0be9, seq=9/2304, ttl=64
+   48 1.763482936 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   49 1.763483654 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   50 1.763771384 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0be9, seq=10/2560, ttl=64
+   51 1.763778397 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0be9, seq=11/2816, ttl=64
+   52 1.763779705 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   53 1.763780474 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   54 1.765679178 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0be9, seq=12/3072, ttl=64
+   55 1.765695951 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   59 2.867956634 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0bea, seq=1/256, ttl=64
+   60 2.867987308 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0bea, seq=2/512, ttl=64
+   61 2.867989155 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0bea, seq=3/768, ttl=64
+   62 2.867990310 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0bea, seq=4/1024, ttl=64
+   63 2.867991566 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0bea, seq=5/1280, ttl=64
+   64 2.867993026 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0bea, seq=6/1536, ttl=64
+   65 2.867994189 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   66 2.867995095 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   67 2.867995811 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   68 2.867996551 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   69 2.867997817 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   70 2.867998444 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   71 2.867999158 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0bea, seq=7/1792, ttl=64
+   72 2.868000190 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0bea, seq=8/2048, ttl=64
+   73 2.868001157 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0bea, seq=9/2304, ttl=64
+   74 2.868002380 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   75 2.868005314 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   76 2.868006335 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   77 2.868007072 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0bea, seq=10/2560, ttl=64
+   78 2.868008063 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0bea, seq=11/2816, ttl=64
+   79 2.868009180 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0bea, seq=12/3072, ttl=64
+   80 2.868010174 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   81 2.868010941 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   82 2.868011603 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   85 3.791839278 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0beb, seq=1/256, ttl=64
+   86 3.791854138 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0beb, seq=2/512, ttl=64
+   87 3.791855843 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0beb, seq=3/768, ttl=64
+   88 3.791856754 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0beb, seq=4/1024, ttl=64
+   89 3.791857592 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0beb, seq=5/1280, ttl=64
+   90 3.791858375 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0beb, seq=6/1536, ttl=64
+   91 3.791859263 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0beb, seq=7/1792, ttl=64
+   92 3.791860264 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0beb, seq=8/2048, ttl=64
+   93 3.791861055 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0beb, seq=9/2304, ttl=64
+   94 3.791861957 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   95 3.791862840 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   96 3.791863596 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   97 3.791864116 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   98 3.791865182 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+   99 3.791865712 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  100 3.791866338 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  101 3.791868779 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  102 3.791869652 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  103 3.791870198 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0beb, seq=10/2560, ttl=64
+  104 3.791871689 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0beb, seq=11/2816, ttl=64
+  105 3.791872502 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0beb, seq=12/3072, ttl=64
+  106 3.791873342 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  107 3.791873950 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  108 3.791874943 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  117 4.812838184 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0bec, seq=1/256, ttl=64
+  118 4.812853311 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0bec, seq=2/512, ttl=64
+  119 4.812854674 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0bec, seq=3/768, ttl=64
+  120 4.812855890 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0bec, seq=4/1024, ttl=64
+  121 4.812856736 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0bec, seq=5/1280, ttl=64
+  122 4.812857568 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0bec, seq=6/1536, ttl=64
+  123 4.812858511 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  124 4.812859385 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  125 4.812860246 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  126 4.812860808 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  127 4.812861351 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  128 4.812862231 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  129 4.812862824 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0bec, seq=7/1792, ttl=64
+  130 4.812864003 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0bec, seq=8/2048, ttl=64
+  131 4.812865479 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0bec, seq=9/2304, ttl=64
+  132 4.812866420 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  133 4.812869088 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  134 4.812870152 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  135 4.812870737 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0bec, seq=10/2560, ttl=64
+  136 4.812871583 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0bec, seq=11/2816, ttl=64
+  137 4.812872410 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0bec, seq=12/3072, ttl=64
+  138 4.812873226 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  139 4.812873827 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  140 4.812874469 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  144 5.849063284 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0bed, seq=1/256, ttl=64
+  145 5.849078485 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0bed, seq=2/512, ttl=64
+  146 5.849080388 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0bed, seq=3/768, ttl=64
+  147 5.849081862 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0bed, seq=4/1024, ttl=64
+  148 5.849083063 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0bed, seq=5/1280, ttl=64
+  149 5.849084369 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0bed, seq=6/1536, ttl=64
+  150 5.849085549 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  151 5.849086515 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  152 5.849087457 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  153 5.849088146 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  154 5.849089098 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  155 5.849089852 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  156 5.849091096 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0bed, seq=7/1792, ttl=64
+  157 5.849092116 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0bed, seq=8/2048, ttl=64
+  158 5.849093509 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0bed, seq=9/2304, ttl=64
+  159 5.849094486 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  160 5.849097928 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  161 5.849098790 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  162 5.849099507 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0bed, seq=10/2560, ttl=64
+  163 5.849100644 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0bed, seq=11/2816, ttl=64
+  164 5.849101771 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0bed, seq=12/3072, ttl=64
+  165 5.849102800 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  166 5.849103520 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  167 5.849104289 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  169 6.861072285 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0bee, seq=1/256, ttl=64
+  170 6.861086927 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0bee, seq=2/512, ttl=64
+  171 6.861088118 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0bee, seq=3/768, ttl=64
+  172 6.861089696 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  173 6.861090514 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  174 6.861091277 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  175 6.861091877 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0bee, seq=4/1024, ttl=64
+  176 6.861092833 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0bee, seq=5/1280, ttl=64
+  177 6.861093664 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0bee, seq=6/1536, ttl=64
+  178 6.861094869 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  179 6.861095475 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  180 6.861096120 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  181 6.861973586 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0bee, seq=7/1792, ttl=64
+  182 6.861988045 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0bee, seq=8/2048, ttl=64
+  183 6.861989093 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0bee, seq=9/2304, ttl=64
+  184 6.861990507 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0bee, seq=10/2560, ttl=64
+  185 6.861991479 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0bee, seq=11/2816, ttl=64
+  186 6.861992540 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0bee, seq=12/3072, ttl=64
+  187 6.861993488 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  188 6.861994831 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  189 6.861995500 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  190 6.861996065 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  191 6.861996623 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  192 6.861997235 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  196 7.885474730 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0bef, seq=1/256, ttl=64
+  197 7.885492131 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0bef, seq=2/512, ttl=64
+  198 7.885493972 192.168.0.173 → 0.0.0.1      ICMP 106 Echo (ping) request  id=0x0bef, seq=3/768, ttl=64
+  199 7.885495197 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
+  200 7.885495880 192.168.0.158 → 192.168.0.173 ICMP 78 Destination unreachable (Source route failed)
