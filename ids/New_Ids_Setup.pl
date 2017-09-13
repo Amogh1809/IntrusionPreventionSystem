@@ -4,34 +4,97 @@
 require Term::ANSIColor;
 use Term::ANSIColor;
 use strict;
+use Term::ProgressBar;
 my $code;
 my $hone;
 my $log;
 
 print color("red"),"
-			IIIIIIIIII                  DDDDDDDDDDDDD                             SSSSSSSSSSSSSSS 
-			I::::::::I                  D::::::::::::DDD                        SS:::::::::::::::S
-			I::::::::I                  D:::::::::::::::DD                     S:::::SSSSSS::::::S
-			II::::::II                  DDD:::::DDDDD:::::D                    S:::::S     SSSSSSS
-	  		  I::::I                      D:::::D    D:::::D                   S:::::S            
-	  		  I::::I                      D:::::D     D:::::D                  S:::::S            
-	  		  I::::I                      D:::::D     D:::::D                   S::::SSSS         
-	  		  I::::I                      D:::::D     D:::::D                    SS::::::SSSSS    
-	  		  I::::I                      D:::::D     D:::::D                      SSS::::::::SS  
-	  		  I::::I                      D:::::D     D:::::D                         SSSSSS::::S 
-	  		  I::::I                      D:::::D     D:::::D                              S:::::S
-	  		  I::::I                      D:::::D    D:::::D                               S:::::S
-			II::::::II                  DDD:::::DDDDD:::::D                    SSSSSSS     S:::::S
-			I::::::::I      ......      D:::::::::::::::DD         ......      S::::::SSSSSS:::::S
-			I::::::::I      .::::.      D::::::::::::DDD           .::::.      S:::::::::::::::SS 
-			IIIIIIIIII      ......      DDDDDDDDDDDDD              ......       SSSSSSSSSSSSSSS   \n", color("reset");
+
+
+
+
+
+                                  'O.   :o                                                      
+                                   ,Xo   lK,                                                    
+                                    'XK:  oNk.                                                  
+                      :c'    .o'     .KNO, cXXo                                                 
+               ...    .XNN0d:'XNXx;.  .ONNk',XNXc                                               
+               ;KNNNXK0XNNNNNNNNNNNN0dc;0NNNx;kNN0;                                             
+             .',lXNNNNNNNNNNNNNNNNNNNNNNNNNNNNkONNN0,                                           
+         l0XNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNK:                                         
+          ,KNNNNNNNNNNNNNXK00000KNNNNNNNNNNNNNNNNNNNNNNXo.                                      
+        :kXNNNNNNNNN0o;.          .':d0NNNNNNNNNNNNNNNNNNNx.                                                ██╗  ██╗ █████╗ ██╗     ██╗         
+     ;kXNNNNNNNNNXd.                   .;dXNNNNNNNNNNNNNNNNNd                                               ██║ ██╔╝██╔══██╗██║     ██║         
+      .,0NNNNNNN0.                         ;kNNNNNNNNNNNNXNNNK'                                             █████╔╝ ███████║██║     ██║         
+      .kNNNNNNN0.                            .dNNNNNNNNNNo'0NNX:                                            ██╔═██╗ ██╔══██║██║     ██║         
+     ;KNNNNNNNN;                               .ONNNNNNNNN0cdXNNl                                           ██║  ██╗██║  ██║███████╗██║         
+    xNNNNNNNNNN.                                 cXNNNNNNNNNXKNNNx.                                         ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝         
+       lNNNNNNN'                                  .xNNNNNNNNNNNNNNO'                                                                            
+       0NNNNNNNk                                    .lKNNNNNNNNNNN,                                 ██╗██████╗ ███████╗         ██████╗ ███████╗
+      ;NNNNNNNNNk                                      'l0NNNNNNNNXc                                ██║██╔══██╗██╔════╝        ██╔═══██╗██╔════╝
+      kkcoNNNNNNN0'                                       .lKNNNNNNNK:                              ██║██████╔╝███████╗        ██║   ██║███████╗
+          ONNNNNNNNx.                                        'ONNNNNNNXd,                           ██║██╔═══╝ ╚════██║        ██║   ██║╚════██║
+          'NNNNNNNNNNx'                                        :XNNNNNNNNK                          ██║██║     ███████║        ╚██████╔╝███████║
+           xx.;ONNNNNNN0c.                                      .KNNNNNNN:                          ╚═╝╚═╝     ╚══════╝         ╚═════╝ ╚══════╝
+                .lKNNNNNNNOc.                                    ;NNNNN0'                                                                       
+                   .lONNNNNNNKo;.                                :NNXd,                         
+                       ,o0NNNNNNN0d;.                            l:.                            
+                          .,oONNNNNNNXxc.                                                       
+                               .cxKNNNNNNXd;                                                    
+                                   .,lOXNNNNXd'                                                 
+                                        'l0NNNN0:                                                 
+                                           .cONNNK;                                                  
+                                              .lKNNO.                                             PROGRAMMERS :   
+                                                 cKNK.                                            --> AMOGH BABBAR  				
+                                                   oNX.                                           --> UTKARSH MITTAL  			 
+                                                    ;N0                                            				 
+                                                     cN'                                        
+                                                      O,                                        
+                                                      ;.                                  
+
+
+
+
+
+
+
+                                                             ",color("reset");
+
+   sleep(1);
+   print "Loading System Modules!!\n" ;
+   my $total = 5;
+   my $progress_bar = Term::ProgressBar->new($total);
+   for my $i (1 .. $total) 
+   {
+		sleep (1);
+		$progress_bar->update($i);
+
+   }
+   system("clear");
+
+  print color("green")," 
+
+                                        ### #     # ####### ######  #     #  #####  ### ####### #     #                                  
+                                         #  ##    #    #    #     # #     # #     #  #  #     # ##    #                                  
+                                         #  # #   #    #    #     # #     # #        #  #     # # #   #                                  
+                                         #  #  #  #    #    ######  #     #  #####   #  #     # #  #  #                                  
+                                         #  #   # #    #    #   #   #     #       #  #  #     # #   # #                                  
+                                         #  #    ##    #    #    #  #     # #     #  #  #     # #    ##                                  
+                                        ### #     #    #    #     #  #####   #####  ### ####### #     #                                  
+                                                                                                                                         
+       ######  ######  ####### #     # ####### #     # ####### ### ####### #     #        #####  #     #  #####  ####### ####### #     # 
+       #     # #     # #       #     # #       ##    #    #     #  #     # ##    #       #     #  #   #  #     #    #    #       ##   ## 
+       #     # #     # #       #     # #       # #   #    #     #  #     # # #   #       #         # #   #          #    #       # # # # 
+       ######  ######  #####   #     # #####   #  #  #    #     #  #     # #  #  #        #####     #     #####     #    #####   #  #  # 
+       #       #   #   #        #   #  #       #   # #    #     #  #     # #   # #             #    #          #    #    #       #     # 
+       #       #    #  #         # #   #       #    ##    #     #  #     # #    ##       #     #    #    #     #    #    #       #     # 
+       #       #     # #######    #    ####### #     #    #    ### ####### #     #        #####     #     #####     #    ####### #     # 
+                                                                                                                                           \n", color("reset");
 			
 print "\n\n\n\n";											
-print color("green"),"                                                                                              Programmers : \n", color("reset");
-print color("blue"),"                                                                                                      -> Amogh And Utkarsh\n", color("reset");
-print color("blue"),"	                                                                                                   -> ....\n", color("reset");
 START:
-print color("cyan")," Choose from <1-15> from following :\n", color("reset");
+print color("cyan")," \nChoose from <1-15> from following :\n", color("reset");
 print "\n";
 print color("green"),"---------------------\n",color("reset");
 print color("green"),"   Firewall Options\n", color("reset");
@@ -64,7 +127,8 @@ print "\n";
 print "Black listing IP A.K.A Blocking Ip Address Started ---------------------------------------- OK \n";
 system('sh /home/amoghbabbar/Desktop/vips/ids/Firewall/Ip_Address_Blocking.sh');
 print "\n";
-system('clear');
+#sleep(2);
+#system('clear');
 goto START;
 }
 elsif($code eq "2")
@@ -73,7 +137,8 @@ print "\n";
 print "Black listing Mac A.K.A Blocking Mac Address Started --------------------------------------- OK \n";
 system('sh /home/amoghbabbar/Desktop/vips/ids/Firewall/MAC_Filtering.sh');
 print "\n";
-system('clear');
+#sleep(2);
+#system('clear');
 goto START;
 }
 elsif($code eq "3")
@@ -82,7 +147,8 @@ print "\n";
 print "Port Blocking Started ------------------------------------------ OK \n";
 system('sh /home/amoghbabbar/Desktop/vips/ids/Firewall/Port_Filtering.sh');
 print "\n";
-system('clear');
+#sleep(2);
+#system('clear');
 goto START;
 }
 elsif($code eq "4")
@@ -91,7 +157,8 @@ print "\n";
 print "Website Blocking Started ---------------------------------------- OK \n";
 system('sh /home/amoghbabbar/Desktop/vips/ids/Firewall/Block_Website.sh');
 print "\n";
-system('clear');
+#sleep(2);
+#system('clear');
 goto START;
 }
 elsif($code eq "5")
@@ -100,7 +167,8 @@ print "\n";
 print "Ads Blocking Started ---------------------------------------- OK \n";
 system('sh /home/amoghbabbar/Desktop/vips/ids/Firewall/Spamming_IP_Block.sh');
 print "\n";
-system('clear');
+#sleep(2);
+#system('clear');
 goto START;
 }
 elsif($code eq "6")
@@ -109,7 +177,8 @@ print "\n";
 print "Evil Shell Searching Started ---------------------------------------- OK \n";
 system('perl /home/amoghbabbar/Desktop/vips/ids/Firewall/evil_shell_finder.pl');
 print "\n";
-system('clear');
+#sleep(2);
+#system('clear');
 goto START;
 }
 elsif($code eq "7")
@@ -118,7 +187,8 @@ print "\n";
 print "Hunting Trojan Started ---------------------------------------- OK \n";
 system('perl /home/amoghbabbar/Desktop/vips/ids/Firewall/Trojan_Scan.pl');
 print "\n";
-system('clear');
+#sleep(2);
+#system('clear');
 goto START;
 }
 if($code eq "8")
@@ -127,7 +197,8 @@ print "\n";
 print "ARP Poisoning Detection Is Started ------------------------ OK \n";
 system('sh /home/amoghbabbar/Desktop/vips/ids/Ddos/Final_Arp_Spoofing_detection.sh');
 print "\n";
-system('clear');
+#sleep(2);
+#system('clear');
 goto START;
 }
 elsif($code eq "9")
@@ -136,7 +207,8 @@ print "\n";
 print "HTTP Ddos Attack Detection Is Started ------------------------ OK \n";
 system('sh /home/amoghbabbar/Desktop/vips/ids/Ddos/http.sh');
 print "\n";
-system('clear');
+#sleep(2);
+#system('clear');
 goto START;
 }
 elsif($code eq "10")
@@ -145,7 +217,8 @@ print "\n";
 print "UDP Ddos Attack Detection Is Started ------------------------ OK \n";
 system('sh /home/amoghbabbar/Desktop/vips/ids/Ddos/udp.sh');
 print "\n";
-system('clear');
+#sleep(2);
+#system('clear');
 goto START;
 }
 elsif($code eq "11")
@@ -154,7 +227,8 @@ print "\n";
 print "TCP / IP Ddos Attack Detection Is Started ------------------------ OK \n";
 system('sh /home/amoghbabbar/Desktop/vips/ids/Ddos/Tcp-Ip.sh');
 print "\n";
-system('clear');
+#sleep(2);
+#system('clear');
 goto START;
 }
 elsif($code eq "12")
@@ -163,7 +237,8 @@ print "\n";
 print "SYN Ddos Attack Detection Is Started ------------------------ OK \n";
 system('sh /home/amoghbabbar/Desktop/vips/ids/Ddos/SYN.sh');
 print "\n";
-system('clear');
+#sleep(2);
+#system('clear');
 goto START;
 }
 elsif($code eq "13")
@@ -172,7 +247,8 @@ print "\n";
 print "Automatic Dos-Ddos Blocking Started ------------------------ OK \n";
 system('perl /home/amoghbabbar/Desktop/vips/ids/Ddos/blockdos.pl');
 print "\n";
-system('clear');
+#sleep(2);
+#system('clear');
 goto START;
 }
 elsif($code eq "14")
@@ -181,7 +257,8 @@ print "\n";
 print "Ping Of Death Attack Detection Started ------------------------ OK \n";
 system('sh /home/amoghbabbar/Desktop/vips/ids/Ddos/PingOfDeathDetector.sh');
 print "\n";
-system('clear');
+#sleep(2);
+#system('clear');
 goto START;
 }
 elsif($code eq "15")
