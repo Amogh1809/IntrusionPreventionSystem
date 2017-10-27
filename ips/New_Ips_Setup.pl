@@ -125,7 +125,7 @@ if($code eq "1")
 {
 print "\n";
 print "Black listing IP A.K.A Blocking Ip Address Started ---------------------------------------- OK \n";
-system('sh /home/amoghbabbar/Desktop/vips/ids/Firewall/Ip_Address_Blocking.sh');
+system('sh /home/amoghbabbar/Desktop/IntrusionPrevention/ips/Firewall/Ip_Address_Blocking.sh');
 print "\n";
 #sleep(2);
 #system('clear');
@@ -135,7 +135,7 @@ elsif($code eq "2")
 {
 print "\n";
 print "Black listing Mac A.K.A Blocking Mac Address Started --------------------------------------- OK \n";
-system('sh /home/amoghbabbar/Desktop/vips/ids/Firewall/MAC_Filtering.sh');
+system('sh /home/amoghbabbar/Desktop/IntrusionPrevention/ips/Firewall/MAC_Filtering.sh');
 print "\n";
 #sleep(2);
 #system('clear');
@@ -145,7 +145,7 @@ elsif($code eq "3")
 { 
 print "\n";
 print "Port Blocking Started ------------------------------------------ OK \n";
-system('sh /home/amoghbabbar/Desktop/vips/ids/Firewall/Port_Filtering.sh');
+system('sh /home/amoghbabbar/Desktop/IntrusionPrevention/ips/Firewall/Port_Filtering.sh');
 print "\n";
 #sleep(2);
 #system('clear');
@@ -155,7 +155,7 @@ elsif($code eq "4")
 {
 print "\n";
 print "Website Blocking Started ---------------------------------------- OK \n";
-system('sh /home/amoghbabbar/Desktop/vips/ids/Firewall/Block_Website.sh');
+system('sh /home/amoghbabbar/Desktop/IntrusionPrevention/ips/Firewall/Block_Website.sh');
 print "\n";
 #sleep(2);
 #system('clear');
@@ -165,7 +165,7 @@ elsif($code eq "5")
 {
 print "\n";
 print "Ads Blocking Started ---------------------------------------- OK \n";
-system('sh /home/amoghbabbar/Desktop/vips/ids/Firewall/Spamming_IP_Block.sh');
+system('sh /home/amoghbabbar/Desktop/IntrusionPrevention/ips/Firewall/Spamming_IP_Block.sh');
 print "\n";
 #sleep(2);
 #system('clear');
@@ -175,7 +175,7 @@ elsif($code eq "6")
 {
 print "\n";
 print "Evil Shell Searching Started ---------------------------------------- OK \n";
-system('perl /home/amoghbabbar/Desktop/vips/ids/Firewall/evil_shell_finder.pl');
+system('perl /home/amoghbabbar/Desktop/IntrusionPrevention/ips/Firewall/evil_shell_finder.pl');
 print "\n";
 #sleep(2);
 #system('clear');
@@ -185,7 +185,7 @@ elsif($code eq "7")
 {
 print "\n";
 print "Hunting Trojan Started ---------------------------------------- OK \n";
-system('perl /home/amoghbabbar/Desktop/vips/ids/Firewall/Trojan_Scan.pl');
+system('perl /home/amoghbabbar/Desktop/IntrusionPrevention/ips/Firewall/Trojan_Scan.pl');
 print "\n";
 #sleep(2);
 #system('clear');
@@ -195,7 +195,7 @@ if($code eq "8")
 {
 print "\n";
 print "ARP Poisoning Detection Is Started ------------------------ OK \n";
-system('sh /home/amoghbabbar/Desktop/vips/ids/Ddos/Final_Arp_Spoofing_detection.sh');
+system('sh /home/amoghbabbar/Desktop/IntrusionPrevention/ips/Ddos/Final_Arp_Spoofing_detection.sh');
 print "\n";
 #sleep(2);
 #system('clear');
@@ -205,7 +205,7 @@ elsif($code eq "9")
 {
 print "\n";
 print "HTTP Ddos Attack Detection Is Started ------------------------ OK \n";
-system('sh /home/amoghbabbar/Desktop/vips/ids/Ddos/http.sh');
+system('sh /home/amoghbabbar/Desktop/IntrusionPrevention/ips/Ddos/http.sh');
 print "\n";
 #sleep(2);
 #system('clear');
@@ -215,7 +215,7 @@ elsif($code eq "10")
 { 
 print "\n";
 print "UDP Ddos Attack Detection Is Started ------------------------ OK \n";
-system('sh /home/amoghbabbar/Desktop/vips/ids/Ddos/udp.sh');
+system('sh /home/amoghbabbar/Desktop/IntrusionPrevention/ips/Ddos/udp.sh');
 print "\n";
 #sleep(2);
 #system('clear');
@@ -225,7 +225,7 @@ elsif($code eq "11")
 {
 print "\n";
 print "TCP / IP Ddos Attack Detection Is Started ------------------------ OK \n";
-system('sh /home/amoghbabbar/Desktop/vips/ids/Ddos/Tcp-Ip.sh');
+system('sh /home/amoghbabbar/Desktop/IntrusionPrevention/ips/Ddos/Tcp-Ip.sh');
 print "\n";
 #sleep(2);
 #system('clear');
@@ -235,7 +235,7 @@ elsif($code eq "12")
 {
 print "\n";
 print "SYN Ddos Attack Detection Is Started ------------------------ OK \n";
-system('sh /home/amoghbabbar/Desktop/vips/ids/Ddos/SYN.sh');
+system('sh /home/amoghbabbar/Desktop/IntrusionPrevention/ips/Ddos/SYN.sh');
 print "\n";
 #sleep(2);
 #system('clear');
@@ -245,7 +245,7 @@ elsif($code eq "13")
 {
 print "\n";
 print "Automatic Dos-Ddos Blocking Started ------------------------ OK \n";
-system('perl /home/amoghbabbar/Desktop/vips/ids/Ddos/blockdos.pl');
+system('perl /home/amoghbabbar/Desktop/IntrusionPrevention/ips/Ddos/blockdos.pl');
 print "\n";
 #sleep(2);
 #system('clear');
@@ -255,7 +255,7 @@ elsif($code eq "14")
 {
 print "\n";
 print "Ping Of Death Attack Detection Started ------------------------ OK \n";
-system('sh /home/amoghbabbar/Desktop/vips/ids/Ddos/PingOfDeathDetector.sh');
+system('sh /home/amoghbabbar/Desktop/IntrusionPrevention/ips/Ddos/PingOfDeathDetector.sh');
 print "\n";
 #sleep(2);
 #system('clear');

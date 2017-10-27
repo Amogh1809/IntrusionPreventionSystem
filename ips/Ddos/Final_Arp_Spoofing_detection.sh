@@ -23,7 +23,7 @@ do
                 then
                         echo "[+] ARP Poisoning NOT In Progress-------------------OK"
                 else
-                        current_ip=$(arp -v | grep -m2 $current_mac | tail -n1 | awk '{print $1}')
+                        current_ip=$(arp -v | grep -m1 $current_mac | tail -n1 | awk '{print $1}')
                         echo "$(tput bold)$(tput setaf 1)"
                         echo "[-] Alert! MAC ADDRESS CHANGE DETECTED ARP Poisoning In Progress.......!!!!"
                         echo "    Suspect MAC: $current_mac"

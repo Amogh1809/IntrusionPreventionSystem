@@ -1,6 +1,6 @@
 #!/bin/bash
 
-
+rm abcd.txt
 echo "$(tput setaf 7)"
 echo "Checking For UDP Flood:"
 while :
@@ -9,7 +9,7 @@ timeout 8 tcpdump -i ens33 -s 65535 > abcd.txt 2> /dev/null
 qe=$(egrep -m 1 "UDP" abcd.txt |  awk '{split($3,a,"."); print a[1]"." a[2]"." a[3]"." a[4]}' )
 blo=$(egrep "UDP" abcd.txt | wc -l)
 qwe=$(iptables -L INPUT -v -n | egrep -m 1 "$qe" | awk '{split($8,a,"."); print a[1]"." a[2]"." a[3]"." a[4]}')
-if [ $blo -gt 1000 ]
+if [ $blo -gt 500 ]
 then
 	if [ "$qe" = "$qwe" ]
 	then
