@@ -1,1 +1,1 @@
-# vips
+# Virtual Intrusion Prevention System
